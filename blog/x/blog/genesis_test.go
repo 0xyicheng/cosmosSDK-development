@@ -3,17 +3,17 @@ package blog_test
 import (
 	"testing"
 
+	"github.com/stretchr/testify/require"
 	keepertest "github.com/xxxxxchan/blog/testutil/keeper"
 	"github.com/xxxxxchan/blog/testutil/nullify"
 	"github.com/xxxxxchan/blog/x/blog"
 	"github.com/xxxxxchan/blog/x/blog/types"
-	"github.com/stretchr/testify/require"
 )
 
 func TestGenesis(t *testing.T) {
 	genesisState := types.GenesisState{
-		Params:	types.DefaultParams(),
-		
+		Params: types.DefaultParams(),
+
 		// this line is used by starport scaffolding # genesis/test/state
 	}
 
@@ -24,8 +24,6 @@ func TestGenesis(t *testing.T) {
 
 	nullify.Fill(&genesisState)
 	nullify.Fill(got)
-
-	
 
 	// this line is used by starport scaffolding # genesis/test/assert
 }
