@@ -48502,6 +48502,12 @@ definitions:
     title: >-
       SignatureCounts contains information about signature reporting for a
       number of blocks
+  xxxxxchan.blog.blog.MsgCreatePostResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uint64
   xxxxxchan.blog.blog.Params:
     type: object
     description: Params defines the parameters for the module.
