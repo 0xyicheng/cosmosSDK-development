@@ -1,5 +1,5 @@
 syntax = "proto3";
-package username.blog.blog;
+package xxxxxchan.blog.blog;
 option go_package = "github.com/xxxxxchan/blog/x/blog/types";
 
 message Post {

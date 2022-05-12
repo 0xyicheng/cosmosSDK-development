@@ -2,7 +2,7 @@
 import * as Long from "long";
 import { util, configure, Writer, Reader } from "protobufjs/minimal";
 
-export const protobufPackage = "username.blog.blog";
+export const protobufPackage = "xxxxxchan.blog.blog";
 
 export interface Post {
   creator: string;
